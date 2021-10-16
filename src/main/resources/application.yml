@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: rtAnalytics
+  server:
+    port: 8085
+kafka.bootstrap.servers: kafka:9092
+mongodb:
+  uri: "mongodb://sxp:sxptECHSOPHY@${MONGO_HOST:165.22.212.29}:${MONGO_PORT:27017}"
